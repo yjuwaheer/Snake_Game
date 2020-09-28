@@ -1,0 +1,56 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    padding: 1px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: gold;
+    border-radius: 8px;
+}
+
+.apple {
+    background-image: url("apple.png");
+    background-size: 20px 20px;
+}
+
+.score {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+}
+
+button {
+    margin: 10px auto;
+    width: 110px;
+    height: 40px;
+    border: black 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-image: url("startbut.jpg");
+    background-size: 100px 40px;
+    opacity: 0.8;
+}
+
+button:hover {
+    border: green 2px solid;
+}
+
